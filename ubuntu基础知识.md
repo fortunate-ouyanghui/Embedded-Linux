@@ -123,6 +123,25 @@ tar xzf test.tar.gz
 ifconfig
 ```
 ### vi编辑器
-
+- 退出并保存
+```C
+:wq
+```
+- 退出不保存
+```C
+:q!
+```
+- 删除一个单词
+```C
+dw
+```
+- 删除光标后的一整行内容
+```C
+dd
+```
+- 查找
+```C
+/rclcpp 表示查找rclcpp,继续查找下一个rclcpp点击n
+```
 - 其余看图片  
 ![1](https://github.com/user-attachments/assets/94ed698a-581b-4ed9-851c-03d39c731446)
