@@ -1,0 +1,2 @@
+- 将hello.c文件上传到ubuntu的/home/oyh/nfs_rootfs/下
+- 
