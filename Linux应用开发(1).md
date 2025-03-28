@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * 编译 gcc -o hello hello.c
+ * 编译 arm-buildroot-linux-gnueabihf-gcc -o hello hello.c
  * 运行：
  *      1. 终端输入：./hello oyh   ->程序输出：hello oyh
  *      2. 终端输入：./hello      ->程序输出：hello world
