@@ -22,4 +22,9 @@ int main(int argc,char** argv)
     return 0;
 }
 ```
+## GCC
+- GCC编译过程
+![22](https://github.com/user-attachments/assets/bece743d-0d7b-4bc0-b93f-16d0182517c1)
+![33](https://github.com/user-attachments/assets/629d95c9-c390-46cb-8b96-19dd3c9be05f)
+
 
