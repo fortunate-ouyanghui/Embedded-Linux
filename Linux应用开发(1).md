@@ -42,6 +42,6 @@ gcc -o test main.c libadd.a
 gcc -c -o add.o add.c
 gcc -shared -o libadd.so add.o
 使用
-gcc -o test -ladd -L /bin/
+gcc -o test main.c libadd.so
 ```
 
