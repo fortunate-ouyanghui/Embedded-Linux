@@ -27,4 +27,21 @@ int main(int argc,char** argv)
 ![22](https://github.com/user-attachments/assets/bece743d-0d7b-4bc0-b93f-16d0182517c1)
 ![33](https://github.com/user-attachments/assets/629d95c9-c390-46cb-8b96-19dd3c9be05f)
 - GCC常用选项
+![44](https://github.com/user-attachments/assets/2672b87c-46cb-49a9-b032-cbcd256b6ac6)
+- 制作静态库
+```C
+制作
+gcc -c -o add.o add.c
+ar crs libadd.a add.o
+使用
+gcc -o test main.c libadd.a
+```
+- 制作动态库
+```C
+制作
+gcc -c -o add.o add.c
+gcc -shared -o libadd.so add.o
+使用
+gcc -o test -ladd -L /bin/
+```
 
